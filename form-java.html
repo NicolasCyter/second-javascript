@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+  <link href="css/form-java.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="color">
+   <div class="form-group">
+     <label for="firstname">Prénom</label>
+     <input type="firstname" class="form-control" id="firstname" placeholder="">
+   </div>
+<input type="text" id="lastname" placeholder="Nom">
+<div>
+  <label for="email">Email</label>
+</div>
+<div>
+  <input type="email" id="email" name="email" value="" placeholder="Votre email" />
+</div>
+
+<br>
+
+Âge: <input type="number" id="age" placeholder="0">
+
+<br>
+
+<input type="text" class="adr" id="adr" placeholder="Adresse">
+
+<br>
+
+<button onclick="printForm()">Envoyer</button>
+
+<div id="box"></div>
+
+</div>
+
+  <script type="text/javascript" src="js/form-java.js"></script>
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
